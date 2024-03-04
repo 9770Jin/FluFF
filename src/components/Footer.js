@@ -167,23 +167,23 @@ const Footer = () => {
           <Item onClick={() => scrollTo("home")}>Home</Item>
           <Item onClick={() => scrollTo("about")}>About</Item>
           <Item onClick={() => scrollTo("roadmap")}>Roadmap</Item>
-          <Item onClick={() => scrollTo("showcase")}>Showcase</Item>
+          {/* <Item onClick={() => scrollTo("showcase")}>Showcase</Item> */}
           <Item onClick={() => scrollTo("team")}>Team</Item>
           <Item onClick={() => scrollTo("faq")}>Faq</Item>
         </MenuItems>
       </Container>
       <Bottom>
         <span>
-          &copy; {new Date().getFullYear()} Weirdos Club. All rights reserved.
+          &copy; {new Date().getFullYear()} FluFF Rocks. All rights reserved.
         </span>
         <span>
           Made with &#10084; by
           <a
-            href="https://youtube.com/codebucks"
+            href=":("
             target="_blank"
             rel="noopener noreferrer"
           >
-            CodeBucks
+            Jin
           </a>
         </span>
       </Bottom>

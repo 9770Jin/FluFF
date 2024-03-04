@@ -2,17 +2,17 @@ import React, { useRef } from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
 
-import img1 from "../../assets/Nfts/bighead.svg";
-import img2 from "../../assets/Nfts/bighead-1.svg";
-import img3 from "../../assets/Nfts/bighead-2.svg";
-import img4 from "../../assets/Nfts/bighead-3.svg";
-import img5 from "../../assets/Nfts/bighead-4.svg";
-import img6 from "../../assets/Nfts/bighead-5.svg";
-import img7 from "../../assets/Nfts/bighead-6.svg";
-import img8 from "../../assets/Nfts/bighead-7.svg";
-import img9 from "../../assets/Nfts/bighead-8.svg";
-import img10 from "../../assets/Nfts/bighead-9.svg";
-import ETH from "../../assets/icons8-ethereum-48.png";
+import img1 from "../assets/Nfts/imag1.jpg";
+import img2 from "../assets/Nfts/imag1.jpg";
+import img3 from "../assets/Nfts/imag1.jpg";
+import img4 from "../assets/Nfts/imag1.jpg";
+import img5 from "../assets/Nfts/imag1.jpg";
+import img6 from "../assets/Nfts/imag1.jpg";
+import img7 from "../assets/Nfts/imag1.jpg";
+import img8 from "../assets/Nfts/imag1.jpg";
+import img9 from "../assets/Nfts/imag1.jpg";
+import img10 from "../assets/Nfts/imag1.jpg";
+// import ETH from "../../assets/icons8-ethereum-48.png";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -126,10 +126,10 @@ const NftItem = ({ img, number = 0, price = 0, passRef }) => {
 
   return (
     <ImgContainer onMouseOver={(e) => pause(e)} onMouseOut={(e) => play(e)}>
-      <img src={img} alt="The Weirdos" />
+      <img src={img} alt="The FluFF" />
       <Details>
         <div>
-          <span>Weirdos</span> <br />
+          <span>FluFF</span> <br />
           <h1>#{number}</h1>
         </div>
 

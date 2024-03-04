@@ -1,14 +1,14 @@
 import React from "react";
 import styled from "styled-components";
 
-import Button from "./Button";
+// import Button from "./Button";
 
-import img1 from "../assets/Nfts/bighead.svg";
-import img2 from "../assets/Nfts/bighead-1.svg";
-import img3 from "../assets/Nfts/bighead-2.svg";
-import img4 from "../assets/Nfts/bighead-3.svg";
-import img5 from "../assets/Nfts/bighead-4.svg";
-import img6 from "../assets/Nfts/bighead-5.svg";
+import img1 from "../assets/Nfts/imag1.jpg";
+import img2 from "../assets/Nfts/imag1.jpg";
+import img3 from "../assets/Nfts/imag1.jpg";
+import img4 from "../assets/Nfts/imag1.jpg";
+import img5 from "../assets/Nfts/imag1.jpg";
+import img6 from "../assets/Nfts/imag1.jpg";
 
 const Section = styled.section`
   width: 100vw;
@@ -138,18 +138,18 @@ const Banner = () => {
   return (
     <Section>
       <ImgContainer>
-        <img src={img1} alt="The Weirdos" />
-        <img src={img2} alt="The Weirdos" />
-        <img src={img3} alt="The Weirdos" />
-        <img src={img4} alt="The Weirdos" />
-        <img src={img5} alt="The Weirdos" />
-        <img src={img6} alt="The Weirdos" />
+        <img src={img1} alt="The FluFF" />
+        <img src={img2} alt="The FluFF" />
+        <img src={img3} alt="The FluFF" />
+        <img src={img4} alt="The FluFF" />
+        <img src={img5} alt="The FluFF" />
+        <img src={img6} alt="The FluFF" />
       </ImgContainer>
       <Title>
-        Join the <br /> weirdos club
+        Join the <br /> FluFFs 
       </Title>
       <BtnContainer>
-        <JoinNow>join now</JoinNow>
+        <JoinNow text="JOIN OUR DISCORD" link="https://discord.gg/kbPcsDzFtU"></JoinNow>
       </BtnContainer>
     </Section>
   );

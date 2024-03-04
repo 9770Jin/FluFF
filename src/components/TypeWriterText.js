@@ -1,11 +1,12 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
 import styled from "styled-components";
+import { Link } from "react-scroll";
 import Button from "./Button";
 
 const Title = styled.h2`
   font-size: ${(props) => props.theme.fontxxl};
-  text-transformation: capitalize;
+  text-transform: capitalize;
   width: 80%;
   color: ${(props) => props.theme.text};
   align-self: flex-start;
@@ -87,22 +88,24 @@ const TypeWriterText = () => {
           }}
           onInit={(typewriter) => {
             typewriter
-              .typeString("<span class='text-1'>NFTs.</span>")
+              .typeString("<span class='text-1'>Solana NFTs.</span>")
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<span class='text-2'>Collectible Items.</span>")
+              .typeString("<span class='text-2'>Collectible Rocks.</span>")
               .pauseFor(2000)
               .deleteAll()
-              .typeString("<span class='text-3'>Ape Killers!</span>")
+              .typeString("<span class='text-3'>Epic Rocks!</span>")
               .pauseFor(2000)
               .deleteAll()
               .start();
           }}
         />
       </Title>
-      <SubTitle>Bored Of Apes? Try Something New.</SubTitle>
+      <SubTitle>Bored? Get Some Rocks.</SubTitle>
       <ButtonContainer>
-        <Button text="Explore" link="#about" />
+        <Link to="about" smooth={true} duration={1000}>
+          <Button text="Explore" />
+        </Link>
       </ButtonContainer>
     </>
   );

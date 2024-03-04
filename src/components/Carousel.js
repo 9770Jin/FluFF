@@ -10,16 +10,16 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation, Autoplay, EffectCards } from "swiper";
 
-import img1 from "../assets/Nfts/bighead.svg";
-import img2 from "../assets/Nfts/bighead-1.svg";
-import img3 from "../assets/Nfts/bighead-2.svg";
-import img4 from "../assets/Nfts/bighead-3.svg";
-import img5 from "../assets/Nfts/bighead-4.svg";
-import img6 from "../assets/Nfts/bighead-5.svg";
-import img7 from "../assets/Nfts/bighead-6.svg";
-import img8 from "../assets/Nfts/bighead-7.svg";
-import img9 from "../assets/Nfts/bighead-8.svg";
-import img10 from "../assets/Nfts/bighead-9.svg";
+import img1 from "../assets/Nfts/imag1.jpg";
+import img2 from "../assets/Nfts/imag1.jpg";
+import img3 from "../assets/Nfts/imag1.jpg";
+import img4 from "../assets/Nfts/imag1.jpg";
+import img5 from "../assets/Nfts/imag1.jpg";
+import img6 from "../assets/Nfts/imag1.jpg";
+import img7 from "../assets/Nfts/imag1.jpg";
+import img8 from "../assets/Nfts/imag1.jpg";
+import img9 from "../assets/Nfts/imag1.jpg";
+import img10 from "../assets/Nfts/imag1.jpg";
 
 import Arrow from "../assets/Arrow.svg";
 
@@ -135,34 +135,34 @@ const Carousel = () => {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src={img1} alt="The Weirdos" />
+          <img src={img1} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img2} alt="The Weirdos" />
+          <img src={img2} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img3} alt="The Weirdos" />
+          <img src={img3} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img4} alt="The Weirdos" />
+          <img src={img4} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img5} alt="The Weirdos" />
+          <img src={img5} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img6} alt="The Weirdos" />
+          <img src={img6} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img7} alt="The Weirdos" />
+          <img src={img7} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img8} alt="The Weirdos" />
+          <img src={img8} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img9} alt="The Weirdos" />
+          <img src={img9} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img10} alt="The Weirdos" />
+          <img src={img10} alt="The FluFF" />
         </SwiperSlide>
       </Swiper>
     </Container>
