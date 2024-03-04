@@ -11,7 +11,7 @@ import About from "./components/sections/About";
 import Faq from "./components/sections/Faq";
 import Footer from "./components/Footer";
 import ScrollToTop from "./components/ScrollToTop";
-
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   return (
     <>
