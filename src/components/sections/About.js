@@ -149,19 +149,20 @@ const About = () => {
         </Box>
         <Box>
           <Title>
-            Welcome To <br /> FluFF Rocks.
+            Welcome To The <br /> FLuFFiverse! 
           </Title>
           <SubText>
-            The FluFF Rocks is a private collection of NFTs—unique digital
-            collectibles. The FluFF are stored as tokens on the
-            Solana blockchain.
+          Breaking News: On April 1st, the digital realm gets 144 times fluffier!
+          That's right, we're dropping FLuFF Rocks - not your grandma's garden rocks,
+          but the coolest, meme-worthy NFTs this side of the blockchain.
+
           </SubText>
-          <SubTextLight>
+          {/* <SubTextLight>
             With more than 100+ AI Generated traits, each NFT is unique and comes
             with a membership to an exclusive group of successful investors.
             Join an ambitious ever-growing community with multiple benefits and
             utilities.
-          </SubTextLight>
+          </SubTextLight> */}
           <ButtonContainer>
             <ThemeProvider theme={dark}>
               <Button text="JOIN OUR DISCORD" link="https://discord.gg/kbPcsDzFtU" />

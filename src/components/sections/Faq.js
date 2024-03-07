@@ -91,11 +91,10 @@ const Faq = () => {
       <Title>FAQ</Title>
       <Container>
         <Box>
-        <Accordion title="WHAT is FluFF?">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore
-            deserunt consequatur quisquam maxime molestias dolores ipsum,
-            exercitationem vel sint quidem aliquam modi quis impedit corporis
-            unde inventore fugiat provident in.
+        <Accordion title="What’s the FLuFF all about?">
+        -Mint Alert: Circle April 1st with a big, fat, rainbow marker. It's FLuFF Day, baby!
+        -Exclusive Club: Only 144 FLuFF Rocks. Why 144? Because it's 12 squared, and that's just mathematically adorable.
+
           </Accordion>  
           
           {/* <Accordion title="WHAT IS THE METAVERSE?">

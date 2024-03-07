@@ -174,12 +174,12 @@ const Footer = () => {
       </Container>
       <Bottom>
         <span>
-          &copy; {new Date().getFullYear()} FluFF Rocks. All rights reserved.
+          &copy; {new Date().getFullYear()} FLuFFiverse. All rights reserved.
         </span>
         <span>
           Made with &#10084; by
           <a
-            href=":("
+            href=""
             target="_blank"
             rel="noopener noreferrer"
           >

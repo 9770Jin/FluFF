@@ -146,10 +146,10 @@ const Banner = () => {
         <img src={img6} alt="The FluFF" />
       </ImgContainer>
       <Title>
-        Join the <br /> FluFFs 
+        Join the <br /> FLuFFiverse! 
       </Title>
       <BtnContainer>
-        <JoinNow text="JOIN OUR DISCORD" link="https://discord.gg/kbPcsDzFtU"></JoinNow>
+        <JoinNow>join now</JoinNow>
       </BtnContainer>
     </Section>
   );
