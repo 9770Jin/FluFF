@@ -92,18 +92,16 @@ const Faq = () => {
       <Container>
         <Box>
         <Accordion title="What’s the FLuFF all about?">
-        -Mint Alert: Circle April 1st with a big, fat, rainbow marker. It's FLuFF Day, baby!
-        -Exclusive Club: Only 144 FLuFF Rocks. Why 144? Because it's 12 squared, and that's just mathematically adorable.
+        Mint Alert: Circle April 1st with a big, fat, rainbow marker. It's FLuFF Day, baby!<br></br>
+        Exclusive Club: Only 144 FLuFF Rocks. Why 144? Because it's 12 squared, and that's just mathematically adorable.
 
           </Accordion>  
-          
-          {/* <Accordion title="WHAT IS THE METAVERSE?">
-            A metaverse is a network of 3D virtual worlds focused on social
-            connection. In futurism and science fiction, it is often described
-            as a hypothetical iteration of the Internet as a single, universal
-            virtual world that is facilitated by the use of virtual and
-            augmented reality headsets.
-          </Accordion> */}
+            <Accordion title="What are The Goodies?">
+            -JoJo's Copy Trading: Ever wanted to trade like a pro without actually being one? Hold a FLuFF Rock, and you're in. It's like magic, but for trading.<br></br>
+            -Alpha Galore: We’re dropping trading tips like they're hot memes. Get ready to profit.<br></br>
+            -Community Driven: Dive into our cozy, exclusive community where every member is a gem. It's all about quality, not quantity. Here, you're not just another member; you're family. Expect quests for $FLUFF tokens, endless memes, and friendships. It's the small community vibe that makes every moment memorable.<br></br>
+            -Save the Puppers: Part of our dough goes to saving endangered red wolves. Because FLuFFs care<br></br>
+          </Accordion>
           {/* <Accordion title="WHY DO WE NEED ROYALTIES?">
             The amount of royalties was fixed at 5% to finance the FluFF
             Rocks's projects. We have the ambition to organize multiple events
@@ -118,9 +116,10 @@ const Faq = () => {
             our future video game. Holding also means that you are part of an
             exclusive network of investors and entrepreneurs.
           </Accordion> */}
-         <Accordion title="WHERE CAN I VIEW MY NFTS?">
-            Once minted or bought simply connect to your OpenSea account to view
-            your NFTs.
+         <Accordion title="Why FLuFF?">
+         Because where else can you get trading insights, become part of an exclusive community, AND save wolves all at the same time? Only in the FLuFFiverse. It’s fluffy rocks, meme dreams, and everything in between - all on bitcoin runes! <br></br>
+          Stay tuned, stay fluffy, and remember – in the world of FLuFF, everything is better with a little fur on it. 🐶🐾
+
           </Accordion>
           {/* <Accordion title="WHAT IS THE FUSION PROCESS?">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel enim

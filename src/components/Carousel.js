@@ -10,18 +10,17 @@ import "swiper/css/navigation";
 
 import { Pagination, Navigation, Autoplay, EffectCards } from "swiper";
 
-import img1 from "../assets/Nfts/imag1.jpg";
-import img2 from "../assets/Nfts/imag1.jpg";
-import img3 from "../assets/Nfts/imag1.jpg";
-import img4 from "../assets/Nfts/imag1.jpg";
-import img5 from "../assets/Nfts/imag1.jpg";
-import img6 from "../assets/Nfts/imag1.jpg";
-import img7 from "../assets/Nfts/imag1.jpg";
-import img8 from "../assets/Nfts/imag1.jpg";
-import img9 from "../assets/Nfts/imag1.jpg";
-import img10 from "../assets/Nfts/imag1.jpg";
-
-import Arrow from "../assets/Arrow.svg";
+import img1 from  "./assets/Nfts/1.png";
+import img2 from  "./assets/Nfts/2.png";
+import img3 from  "./assets/Nfts/3.png";
+import img4 from  "./assets/Nfts/4.png";
+import img5 from  "./assets/Nfts/5.png";
+import img6 from  "./assets/Nfts/6.png";
+// import img7 from  "./assets/Nfts/.jpg";
+// import img8 from  "./assets/Nfts/.jpg";
+// import img9 from  "./assets/Nfts/.jpg";
+// import img10 from "./assets/Nfts/1.jpg";
+import Arrow from "./assets/Arrow.svg";
 
 const Container = styled.div`
   width: 25vw;
@@ -152,7 +151,7 @@ const Carousel = () => {
         <SwiperSlide>
           <img src={img6} alt="The FluFF" />
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src={img7} alt="The FluFF" />
         </SwiperSlide>
         <SwiperSlide>
@@ -163,7 +162,7 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <img src={img10} alt="The FluFF" />
-        </SwiperSlide>
+        </SwiperSlide> */}
       </Swiper>
     </Container>
   );

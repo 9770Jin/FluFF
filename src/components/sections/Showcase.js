@@ -2,16 +2,16 @@ import React, { useRef } from "react";
 import styled from "styled-components";
 import { keyframes } from "styled-components";
 
-import img1 from "../assets/Nfts/imag1.jpg";
-import img2 from "../assets/Nfts/imag1.jpg";
-import img3 from "../assets/Nfts/imag1.jpg";
-import img4 from "../assets/Nfts/imag1.jpg";
-import img5 from "../assets/Nfts/imag1.jpg";
-import img6 from "../assets/Nfts/imag1.jpg";
-import img7 from "../assets/Nfts/imag1.jpg";
-import img8 from "../assets/Nfts/imag1.jpg";
-import img9 from "../assets/Nfts/imag1.jpg";
-import img10 from "../assets/Nfts/imag1.jpg";
+import img1 from "../assets/Nfts/1.png";
+import img2 from "../assets/Nfts/2.png";
+import img3 from "../assets/Nfts/3.png";
+import img4 from "../assets/Nfts/4.png";
+import img5 from "../assets/Nfts/5.png";
+import img6 from "../assets/Nfts/6.png";
+// import img7 from "../assets/Nfts/.jpg";
+// import img8 from "../assets/Nfts/.jpg";
+// import img9 from "../assets/Nfts/.jpg";
+// import img10 from "../assets/Nfts/.jpg";
 // import ETH from "../../assets/icons8-ethereum-48.png";
 
 const Section = styled.section`

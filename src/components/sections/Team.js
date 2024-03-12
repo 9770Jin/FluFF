@@ -1,16 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-
-import img1 from "../assets/Nfts/imag1.jpg";
-import img2 from "../assets/Nfts/imag1.jpg";
-import img3 from "../assets/Nfts/imag1.jpg";
-import img4 from "../assets/Nfts/imag1.jpg";
-import img5 from "../assets/Nfts/imag1.jpg";
-import img6 from "../assets/Nfts/imag1.jpg";
-import img7 from "../assets/Nfts/imag1.jpg";
-import img8 from "../assets/Nfts/imag1.jpg";
-import img9 from "../assets/Nfts/imag1.jpg";
-import ConfettiComponent from "../Confetti";
+import img1 from "./f18e1a13a7239a01e170f87fa3ec612d.png";
+import img2 from "./02f54ce874b8efefaa18e66a9a738fe7.png";
+// import img3 from "../assets/Nfts/.jpg";
+// import img4 from "../assets/Nfts/.jpg";
+// import img5 from "../assets/Nfts/.jpg";
+// import img6 from "../assets/Nfts/.jpg";
+// import img7 from "../assets/Nfts/.jpg";
+// import img8 from "../assets/Nfts/.jpg";
+// import img9 from "../assets/Nfts/.jpg";
+//import ConfettiComponent from "../Confetti";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -129,13 +128,13 @@ const MemberComponent = ({ img, name = " ", position = " " }) => {
 const Team = () => {
   return (
     <Section id="team">
-      <ConfettiComponent />
+      {/* <ConfettiComponent /> */}
       <Title>Team</Title>
       <Container>
-        <MemberComponent img={img1} name="SKYBLAZE" position="founder" />
-        <MemberComponent img={img2} name="MEGNUM" position="Co-Founder" />
-        <MemberComponent img={img3} name="MONKEY KING" position="Director" />
-        <MemberComponent img={img4} name="BLACK PANTHER" position="Manager" />
+        <MemberComponent img={img1} name="JoJoo" position="founder" />
+        <MemberComponent img={img2} name="SirFluffAlot" position="Manager" />
+        {/* <MemberComponent img={img3} name="MONKEY KING" position="Director" /> */}
+        {/* <MemberComponent img={img4} name="BLACK PANTHER" position="Manager" />
         <MemberComponent img={img5} name="DEATHSTROKE" position="Artist" />
         <MemberComponent
           img={img6}
@@ -148,7 +147,7 @@ const Team = () => {
           position="Blockchain Specialist"
         />
         <MemberComponent img={img8} name="MONK" position="Web3 Developer" />
-        <MemberComponent img={img9} name="BANANA" position="Graphic Designer" />
+        <MemberComponent img={img9} name="BANANA" position="Graphic Designer" /> */}
       </Container>
     </Section>
   );

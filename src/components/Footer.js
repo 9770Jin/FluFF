@@ -177,7 +177,7 @@ const Footer = () => {
           &copy; {new Date().getFullYear()} FLuFFiverse. All rights reserved.
         </span>
         <span>
-          Made with &#10084; by
+          Made with &#10084; by 
           <a
             href=""
             target="_blank"

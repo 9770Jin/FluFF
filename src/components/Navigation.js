@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-// import Button from "./Button";
+import Button from "./Button";
 import Logo from "./Logo";
 
 const Section = styled.section`
@@ -164,15 +164,15 @@ const Navigation = () => {
           {/* <MenuItem onClick={() => scrollTo("showcase")}>Showcase</MenuItem> */}
           <MenuItem onClick={() => scrollTo("team")}>Team</MenuItem>
           <MenuItem onClick={() => scrollTo("faq")}>Faq</MenuItem>
-          {/* <MenuItem> */}
-            {/* <div className="mobile">
-              <Button text="Connect Wallet" link="https://www.google.com.br/" />
-            </div> */}
-          {/* </MenuItem> */}
+          <MenuItem> 
+             <div className="mobile">
+              <Button text="Presale Link" link="https://app.hel.io/pay/65dc70b3ab0bfbf52d1b80bf" />
+            </div> 
+          </MenuItem> 
         </Menu>
-        {/* <div className="desktop">
-          <Button text="Connect Wallet" link="https://www.google.com.br/" />
-        </div> */}
+       <div className="desktop">
+          <Button text="Presale Link" link="https://app.hel.io/pay/65dc70b3ab0bfbf52d1b80bf" />
+        </div> 
       </NavBar>
     </Section>
   );

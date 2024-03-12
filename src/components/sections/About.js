@@ -102,28 +102,28 @@ const SubText = styled.p`
   }
 `;
 
-const SubTextLight = styled.p`
-  font-size: ${(props) => props.theme.fontmd};
-  color: ${(props) => `rgba(${props.theme.bodyRgba}, 0.6)`};
-  align-self: flex-start;
-  width: 80%;
-  margin: 1rem auto;
-  font-weight: 400;
+// const SubTextLight = styled.p`
+//   font-size: ${(props) => props.theme.fontmd};
+//   color: ${(props) => `rgba(${props.theme.bodyRgba}, 0.6)`};
+//   align-self: flex-start;
+//   width: 80%;
+//   margin: 1rem auto;
+//   font-weight: 400;
 
-  @media (max-width: 64em) {
-    width: 100%;
-    text-align: center;
-    font-size: ${(props) => props.theme.fontsm};
-  }
+//   @media (max-width: 64em) {
+//     width: 100%;
+//     text-align: center;
+//     font-size: ${(props) => props.theme.fontsm};
+//   }
 
-  @media (max-width: 40em) {
-    font-size: ${(props) => props.theme.fontsm};
-  }
+//   @media (max-width: 40em) {
+//     font-size: ${(props) => props.theme.fontsm};
+//   }
 
-  @media (max-width: 30em) {
-    font-size: ${(props) => props.theme.fontxs};
-  }
-`;
+//   @media (max-width: 30em) {
+//     font-size: ${(props) => props.theme.fontxs};
+//   }
+// `;
 
 const ButtonContainer = styled.div`
   width: 80%;
@@ -152,17 +152,17 @@ const About = () => {
             Welcome To The <br /> FLuFFiverse! 
           </Title>
           <SubText>
-          Breaking News: On April 1st, the digital realm gets 144 times fluffier!
-          That's right, we're dropping FLuFF Rocks - not your grandma's garden rocks,
+           News: On April 1st, the digital realm gets 144 times fluffier!
+          That's right, we're dropping FLuFF Rocks Breaking- not your grandma's garden rocks,
           but the coolest, meme-worthy NFTs this side of the blockchain.
 
           </SubText>
-          {/* <SubTextLight>
-            With more than 100+ AI Generated traits, each NFT is unique and comes
-            with a membership to an exclusive group of successful investors.
-            Join an ambitious ever-growing community with multiple benefits and
-            utilities.
-          </SubTextLight> */}
+          <SubText>
+         What's the FLuFF all about?
+         <br></br>
+         Mint Alert: Circle April 1st with a big, fat, rainbow marker. It's FLuFF Day, baby!
+         Exclusive Club: Only 144 FLuFF Rocks. Why 144? Because it's 12 squared, and that's just mathematically adorable.
+         </SubText>
           <ButtonContainer>
             <ThemeProvider theme={dark}>
               <Button text="JOIN OUR DISCORD" link="https://discord.gg/kbPcsDzFtU" />
