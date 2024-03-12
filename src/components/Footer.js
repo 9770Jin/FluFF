@@ -183,7 +183,7 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Jin
+            Spy FluFF
           </a>
         </span>
       </Bottom>
