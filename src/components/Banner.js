@@ -148,8 +148,11 @@ const Banner = () => {
         Join the <br /> FLuFFiverse! 
       </Title>
       <BtnContainer>
-        <JoinNow>join now</JoinNow>
-      </BtnContainer>
+  <a href="https://discord.gg/kbPcsDzFtU">
+    <JoinNow>Join Now</JoinNow>
+  </a>
+</BtnContainer>
+
     </Section>
   );
 };
