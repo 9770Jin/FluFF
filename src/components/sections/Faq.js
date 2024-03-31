@@ -105,11 +105,11 @@ const Faq = () => {
           <Accordion title="What happens on April 1st? ">
             You will be able to trade in the tokens you e received from fluff rocks to runes
           </Accordion>
-        </Box>
-        <Box>
           <Accordion title="What do I do if I have any questions or suggestions? ">
             Just visit our discord and open a ticket 
           </Accordion> 
+        </Box>
+        <Box>
          <Accordion title="Why FLuFF?">
          Because where else can you get trading insights, become part of an exclusive community, AND save wolves all at the same time? Only in the FLuFFiverse. It’s fluffy rocks, meme dreams, and everything in between - all on bitcoin runes! <br></br>
           Stay tuned, stay fluffy, and remember – in the world of FLuFF, everything is better with a little fur on it. 🐶🐾

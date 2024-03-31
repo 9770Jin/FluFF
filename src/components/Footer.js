@@ -176,7 +176,7 @@ const Footer = () => {
         <span>
           &copy; {new Date().getFullYear()} FLuFFiverse. All rights reserved.
         </span>
-        <span>
+        {/* <span>
           Made with &#10084; by 
           <a
             href=""
@@ -185,7 +185,7 @@ const Footer = () => {
           >
             Spy FluFF
           </a>
-        </span>
+        </span> */}
       </Bottom>
     </Section>
   );
