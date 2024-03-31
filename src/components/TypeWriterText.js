@@ -88,7 +88,7 @@ const TypeWriterText = () => {
           }}
           onInit={(typewriter) => {
             typewriter
-              .typeString("<span class='text-1'>Solana NFTs.</span>")
+              .typeString("<span class='text-1'>Bitcoin Rune NFTs.</span>")
               .pauseFor(2000)
               .deleteAll()
               .typeString("<span class='text-2'>Collectible Rocks.</span>")

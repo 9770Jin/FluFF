@@ -152,16 +152,16 @@ const About = () => {
             Welcome To The <br /> FLuFFiverse! 
           </Title>
           <SubText>
-           News: On April 1st, the digital realm gets 144 times fluffier!
-          That's right, we're dropping FLuFF Rocks Breaking- not your grandma's garden rocks,
-          but the coolest, meme-worthy NFTs this side of the blockchain.
+           News: On April 1st, the digital realm gets 144 times fluffier!<br></br>
+          That's right, we're dropping FLuFF Rocks Breaking- not your grandma's garden rocks,<br></br>
+          but the coolest, meme-worthy NFTs this side of the blockchain.<br></br>
 
           </SubText>
           <SubText>
          What's the FLuFF all about?
          <br></br>
-         Mint Alert: Circle April 1st with a big, fat, rainbow marker. It's FLuFF Day, baby!
-         Exclusive Club: Only 144 FLuFF Rocks. Why 144? Because it's 12 squared, and that's just mathematically adorable.
+         Mint Alert: Circle April 1st with a big, fat, rainbow marker. It's FLuFF Day, baby!<br></br>
+         Exclusive Club: Only 144 FLuFF Rocks. Why 144? Because it's 12 squared, and that's just mathematically adorable.<br></br>
          </SubText>
           <ButtonContainer>
             <ThemeProvider theme={dark}>

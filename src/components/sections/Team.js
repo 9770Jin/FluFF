@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import img1 from "./f18e1a13a7239a01e170f87fa3ec612d.png";
 import img2 from "./02f54ce874b8efefaa18e66a9a738fe7.png";
-// import img3 from "../assets/Nfts/.jpg";
+import img3 from "./jk.png";
 // import img4 from "../assets/Nfts/.jpg";
 // import img5 from "../assets/Nfts/.jpg";
 // import img6 from "../assets/Nfts/.jpg";
@@ -132,6 +132,7 @@ const Team = () => {
       <Title>Team</Title>
       <Container>
         <MemberComponent img={img1} name="JoJoo" position="founder" />
+        <MemberComponent img={img3} name="JK" position="Devloper" />
         <MemberComponent img={img2} name="SirFluffAlot" position="Manager" />
         {/* <MemberComponent img={img3} name="MONKEY KING" position="Director" /> */}
         {/* <MemberComponent img={img4} name="BLACK PANTHER" position="Manager" />
